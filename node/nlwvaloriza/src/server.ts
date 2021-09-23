@@ -1,14 +1,13 @@
+import "reflect-metadata";
 import express from "express";
+import "./database"
+import { router } from "./routers";
 
 const app = express();
 
-app.get("/ping", (request, response) => {
-    return response.send('pong');
-});
+app.use(express.json());
 
-app.post("/teste-post", (request, response) => {
-    return response.send('post funcionando!');
-});
+app.use(router);
 
 app.listen(3000, () => {
     console.log("Running...");
