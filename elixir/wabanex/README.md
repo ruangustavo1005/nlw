@@ -38,6 +38,7 @@ $ mix phx.server
 ## abrir o iterativo do Elixir:
 $ iex -S mix
 
+## outros:
 match geral de funcs: _ -> se ele tiver no começo do nome do param, também fica como match geral. ex: _reason
 
 console.log(): IO.inspect()
