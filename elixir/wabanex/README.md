@@ -41,9 +41,11 @@ $ mix phx.server
 ## abrir o iterativo do Elixir:
 $ iex -S mix
 
+## outros:
 match geral de funcs: _ -> se ele tiver no começo do nome do param, também fica como match geral. ex: _reason
 
 console.log(): IO.inspect()
+<<<<<<< HEAD
 
 ## criar migration (usando Ecto):
 $ mix ecto.gen.migration create_users_table
@@ -88,3 +90,5 @@ $ mix compile
     name
   }
 }
+=======
+>>>>>>> 7aa296fef9deef6c358ca2120c38db4db9a8eea8
